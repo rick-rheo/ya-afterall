@@ -74,3 +74,17 @@ AfterAll.afterAll(aa => {
 	console.error(`Sadness ${error}`);
 
 });
+
+## Sample Result
+
+```js
+
+{ 
+	foo: 'bar',
+  	another: { 
+		thing: 'to fetch' 
+	},
+  	bar: 'foo',
+  	done: 'yep' 
+}
+```
