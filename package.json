@@ -1,6 +1,6 @@
 {
   "name": "ya-afterall",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Yet another verion of After All.  Helps you with multiple asyncrounous functions necessary to aquire data to complete a final task",
   "main": "index.js",
   "scripts": {

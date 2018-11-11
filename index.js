@@ -2,7 +2,7 @@
 
 let EnableDebug = false;
 
-exports.enableDebug(enable)
+exports.enableDebug = function (enable)
 {
 	if(typeof enable === 'undefined'){
 		enable = true;
@@ -29,7 +29,7 @@ exports.afterAll = function (getItFn, gotItFn, errorFn)
 				if(data) {
 
 					if(typeof data !== 'object'){
-						throw(new Error('aa.gotIt data must be null/undefined or an object'));
+						throw(new Error('afterall gotIt  data must be null/undefined or an object'));
 					}
 
 					Object.keys(data).forEach(k => {
@@ -92,7 +92,7 @@ exports.afterAll = function (getItFn, gotItFn, errorFn)
 		}
 		else {
 
-			console.error('Utils.afterAll encountered an error but there was no error function and we\'re sad now :(');
+			console.error('afterAll encountered an error but there was no error function and we\'re sad now :(');
 			if(EnableDebug) {
 				debugger;
 			}
