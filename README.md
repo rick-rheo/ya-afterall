@@ -14,7 +14,7 @@ npm install ya-afterall
 ### Methods
 
 - `aa.gettingIt()` - call this for every async call you make to fetch a resource
-- `aa.gotIt({resourceName: resourceValue)` - call once you've fetched the resource. give the resource a unique name
+- `aa.gotIt({resourceName: resourceValue, otherResourceName: otherResourceValue})` - call once you've fetched the resource. give the resource a unique name
 - `aa.error(errorMsg)` - call this if a resource fetch fails and you need everything to stop. Provide an error to be given back to you in the error handler
 - `aa.then(fn)` - call this to chain to another function with a set of asyncronous calls
 
@@ -37,7 +37,7 @@ AfterAll.afterAll(aa => {
 	});
 
 	setTimeout(() => {
-		aa.gotIt({another: {thing: 'to fetch}})
+		aa.gotIt({another: {thing: 'to fetch'}})
 	});
 
 	aa.then(resources => {
