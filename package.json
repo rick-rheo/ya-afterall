@@ -1,0 +1,23 @@
+{
+  "name": "ya-afterall",
+  "version": "1.0.0",
+  "description": "Yet another verion of After All.  Helps you with multiple asyncrounous functions necessary to aquire data to complete a final task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick-rheo/ya-afterall.git"
+  },
+  "keywords": [
+    "async",
+    "afterall"
+  ],
+  "author": "Rick Reynolds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rick-rheo/ya-afterall/issues"
+  },
+  "homepage": "https://github.com/rick-rheo/ya-afterall#readme"
+}
