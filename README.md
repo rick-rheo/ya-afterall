@@ -31,11 +31,11 @@ const errorVersion = false;
 AfterAll.afterAll(aa => {
 
 	aa.gettingIt();
-	
 	setTimeout(() => {
 		aa.gotIt({foo: 'bar'})
 	});
 
+	aa.gettingIt();
 	setTimeout(() => {
 		aa.gotIt({another: {thing: 'to fetch'}})
 	});
