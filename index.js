@@ -88,7 +88,7 @@ exports.afterAll = function (getItFn, gotItFn, errorFn)
 	function gotSick()
 	{
 		if(typeof errorFn === 'function') {
-			errorFn(resources);
+			errorFn(errors);
 		}
 		else {
 
