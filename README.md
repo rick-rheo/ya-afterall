@@ -3,6 +3,8 @@ Yet another verion of After All.  Helps you with multiple asyncrounous functions
 
 
 
+THIS WAS AN ALTERNATIVE FOR PROMISE.ALL ETC., BACK IN THE DAY WHEN THAT WASN'T AVAILABLE EVERYWHERE WITHOUT BABEL ETC.  AT THIS POINT THIS IS NO LONGER NECESSARY AND ITS ARCHIVED.
+
 
 ## Installation
 
